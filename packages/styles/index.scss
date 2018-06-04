@@ -1,0 +1,8 @@
+// Our custom variables to override the bootstrap's ones:
+@import "custom";
+
+// Include here bootstrap modules:
+@import "./bootstrap";
+
+// The app's styles (they should go after all other styles):
+@import "./scss/demo";

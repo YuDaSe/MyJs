@@ -1,0 +1,8 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "max-file-line-count": [true, 300],
+    "no-unused-variable": true,
+    "no-increment-decrement": false
+  }
+}

@@ -4,6 +4,7 @@
   "description": "Demo repo for Mykolaiv JS 2018",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lerna init && lerna bootstrap --loglevel verbose && gulp oldbuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,27 @@
   "bugs": {
     "url": "https://github.com/YuDaSe/MyJs/issues"
   },
-  "homepage": "https://github.com/YuDaSe/MyJs#readme"
+  "homepage": "https://github.com/YuDaSe/MyJs#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "child_process": "1.0.2",
+    "del": "3.0.0",
+    "files-exist": "1.0.2",
+    "gulp": "3.9.1",
+    "gulp-angular-templatecache": "2.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.2",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-if": "2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "0.6.1",
+    "gulp-sourcemaps": "2.6.1",
+    "gulp-uglify": "3.0.0",
+    "gulp-useref": "3.1.2",
+    "lerna": "^2.11.0",
+    "merge-stream": "1.0.1",
+    "run-sequence": "2.2.0"
+  }
 }

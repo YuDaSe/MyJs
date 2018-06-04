@@ -1,0 +1,36 @@
+{
+  "name": "@demo/styles",
+  "version": "1.0.0",
+  "description": "Common CSS styles for all client apps (AngularJs and Angular 5+).",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --disable-host-check --mode development --port 5455 --host 0.0.0.0",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "bootstrap"
+  ],
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "css-loader": "^0.28.11",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.3",
+    "postcss-loader": "^2.1.4",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

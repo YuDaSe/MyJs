@@ -1,0 +1,9 @@
+{
+  "html": {
+    "brace_style": "collapse",
+    "indent_char": " ",
+    "indent_size": 2,
+    "unformatted": ["a", "sub", "sup", "b", "i", "u"],
+    "wrap_attributes": "force"
+  }
+}

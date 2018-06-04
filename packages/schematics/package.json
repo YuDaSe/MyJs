@@ -1,0 +1,22 @@
+{
+  "name": "@demo/schematics",
+  "scope": "@demo",
+  "version": "0.0.53",
+  "description": "Scaffolding lib for Demo",
+  "scripts": {
+    "build": "npm version patch && tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "devDependencies": {
+    "@angular-devkit/core": "^0.0.25",
+    "@angular-devkit/schematics": "^0.0.48",
+    "@schematics/schematics": "^0.0.13",
+    "@schematics/angular": "^0.1.13",
+    "@types/node": "^9.3.0",
+    "typescript": "^2.5.2"
+  }
+}
